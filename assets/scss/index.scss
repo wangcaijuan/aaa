@@ -1,7 +1,208 @@
-body {
-    background-color: #ddd;
-    font-size: 12px;
+*{
+	margin:0;
+	padding:0;
+
 }
-ul li{
-	color:red;
+
+#container{
+	width:100%;
+	height:2000px;
+	font-size:0px;
 }
+
+/* 页面的头部 导航栏 */
+
+.header{
+    height:58px;
+  	background-color: #fff; 
+   	
+  	.nav{
+		width:1000px;
+		height:58px;
+		background-color:pink;
+    	margin:0 auto;
+    	overflow:hidden;
+   		.jlt {
+   			float:left;
+   			width:150px;
+   			height:58px;
+			background:url(../images/jlt.png) 0 0;
+			margin-top:11px;
+
+		}
+
+		ul li{
+				float:left;
+				line-height:58px;
+				padding:0 16px 0 16px; 
+				list-style:none;
+			a{
+
+				border-bottom:3px solid #FF9D00;
+				
+				font-size:14px;
+				color:black;
+			}
+			i{
+				font-size:12px;
+			}
+		}
+		.nav-right{
+			float:right;
+
+			a{
+				font-size:14px;
+				color:#FF9D00;
+				line-height:58px;
+				
+			}
+		}
+	
+  	}
+}
+
+/* 页面的头部 导航栏 */
+
+/* 页面的主体部分 轮播图 */
+.lunbo{
+	position:relative;
+	width:1423px;
+	height:474px;
+	border:1px solid blue;
+	// overflow:hidden;
+	.lunbo-one li{
+		
+		position:absolute;
+		top: 0;
+		left:0;
+		display:none;
+		text-align:center;
+		img{
+			width:1423px;
+			height:474px;
+		}
+	}
+	.lunbo-one li:first-child{
+		display: block;
+	}
+	.lunbo-two {
+		position:absolute;
+		top: 40px;
+		left:1270px;
+		li{
+			margin-top:5px;
+		}
+	}
+	.lunbo-three{
+		position:absolute;
+		top: 0px;
+		left:210px;
+		font-size:20px;
+		color:white;
+		ol{
+			position:absolute;
+			top: 0;
+			left:0;
+			width:400px;
+			height:60px;
+			display:none;
+			li{
+				margin:5px;
+			}
+		}
+		
+	}
+	.lunbo-three ol:first-child{
+		display: block;
+	}
+
+	.lunbo-si{
+		position:absolute;
+		top: 300px;
+		left:450px;
+		width:518px;
+		height:69px;
+		padding:10px;
+		background-color: rgba(0,0,0,.6);
+		
+		.radio{
+			width:100%;
+			height:26px;
+			border:1px solid red;
+			font-size:14px;
+			color:white;
+			display: flex;
+			span{
+				margin-top:3px;
+				margin-right:20px;
+			}
+			.radios{
+				
+				height: 26px;
+				border:1px solid red;
+				display: flex;
+			}
+			.yuandian{
+				width:16px;
+				height:16px;
+				border:1px solid #FF9D00;
+				border-radius:50%;
+				background-color:white;
+				margin-right:5px;
+				.yuanxin{
+					width:10px;
+					height:10px;
+					border-radius:50%;
+					margin:3px 3px;
+					// display: none;
+				}
+				.radio:hover .yuanxin{
+					background-color:#FF9D00;
+					
+				}
+			}
+		}
+
+		.search{
+			ul li{
+				position:relative;
+				height:50px;
+				background:red;
+				margin-top:5px;
+				
+				input{
+					position:absolute;
+					top: 0px;
+					left:0px;
+					width:440px;
+					height:36px;
+					border-radius:5px;
+					padding:0px 5px 0px 5px;
+					
+					border:none;
+
+				}
+			}
+
+			img{
+				position:absolute;
+				top: 0px;
+				left:430px;
+				width:30px;
+				height:30px;
+				background:#FF9D00;
+				border-radius:5px;
+				padding:5px;
+			}
+		}
+	}
+}
+
+/* 页面的主体部分 轮播图 */
+/* 页面的底部  */ 
+.floot{
+	width:100%;
+	height:500px;
+	background:pink;
+}
+/* 页面的底部  */ 
