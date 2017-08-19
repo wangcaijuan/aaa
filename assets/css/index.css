@@ -48,7 +48,8 @@
   position: relative;
   width: 1423px;
   height: 474px;
-  border: 1px solid blue; }
+  border: 1px solid blue;
+  margin-bottom: 30px; }
   .lunbo .lunbo-one li {
     position: absolute;
     top: 0;
@@ -85,7 +86,7 @@
     display: block; }
   .lunbo .lunbo-si {
     position: absolute;
-    top: 300px;
+    top: 320px;
     left: 450px;
     width: 518px;
     height: 69px;
@@ -94,7 +95,6 @@
     .lunbo .lunbo-si .radio {
       width: 100%;
       height: 26px;
-      border: 1px solid red;
       font-size: 14px;
       color: white;
       display: flex; }
@@ -103,7 +103,6 @@
         margin-right: 20px; }
       .lunbo .lunbo-si .radio .radios {
         height: 26px;
-        border: 1px solid red;
         display: flex; }
       .lunbo .lunbo-si .radio .yuandian {
         width: 16px;
@@ -119,31 +118,514 @@
           margin: 3px 3px; }
         .lunbo .lunbo-si .radio .yuandian .radio:hover .yuanxin {
           background-color: #FF9D00; }
-    .lunbo .lunbo-si .search ul li {
-      position: relative;
-      height: 50px;
-      background: red;
-      margin-top: 5px; }
-      .lunbo .lunbo-si .search ul li input {
+    .lunbo .lunbo-si .search {
+      overflow: hidden; }
+      .lunbo .lunbo-si .search ul {
+        width: 540px;
+        height: 45px; }
+      .lunbo .lunbo-si .search ul li {
+        position: relative;
+        height: 50px;
+        margin-top: 5px; }
+        .lunbo .lunbo-si .search ul li input {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 445px;
+          height: 36px;
+          border-radius: 5px;
+          padding: 0px 11px 0px 20px;
+          border: none; }
+      .lunbo .lunbo-si .search img {
         position: absolute;
         top: 0px;
-        left: 0px;
-        width: 440px;
-        height: 36px;
+        left: 480px;
+        width: 25px;
+        height: 25px;
+        background: #FF9D00;
         border-radius: 5px;
-        padding: 0px 5px 0px 5px;
-        border: none; }
-    .lunbo .lunbo-si .search img {
+        padding: 6px; }
+    .lunbo .lunbo-si .wenzi {
       position: absolute;
-      top: 0px;
-      left: 430px;
-      width: 30px;
-      height: 30px;
-      background: #FF9D00;
-      border-radius: 5px;
-      padding: 5px; }
+      top: 110px;
+      left: 0px;
+      width: 546px;
+      height: 18px;
+      font-size: 14px;
+      color: white;
+      overflow: hidden;
+      line-height: 19px; }
+      .lunbo .lunbo-si .wenzi p a {
+        color: #FF9D00; }
 
 /* 页面的主体部分 轮播图 */
+/* 页面的主题内容 左右两面 */
+.section {
+  width: 1000px;
+  height: 2254px;
+  margin: 0 auto; }
+  .section .section-l {
+    float: left;
+    width: 260px;
+    height: 1738px; }
+    .section .section-l .lvxing {
+      width: 260px;
+      height: 36px; }
+      .section .section-l .lvxing a {
+        color: black;
+        font-size: 18px;
+        color: #333; }
+        .section .section-l .lvxing a span {
+          float: right;
+          font-size: 14px;
+          color: #999; }
+    .section .section-l .lv-lunbo {
+      position: relative;
+      width: 260px;
+      height: 241px;
+      font-size: 14px;
+      overflow: hidden; }
+      .section .section-l .lv-lunbo ul li {
+        width: 260px;
+        height: 241px; }
+        .section .section-l .lv-lunbo ul li h3 {
+          margin-top: 10px; }
+          .section .section-l .lv-lunbo ul li h3 a {
+            font-size: 16px;
+            color: #333; }
+        .section .section-l .lv-lunbo ul li p {
+          color: #333;
+          line-height: 20px; }
+      .section .section-l .lv-lunbo ol {
+        position: absolute;
+        top: 125px;
+        left: 160px;
+        width: 90px;
+        height: 8px; }
+        .section .section-l .lv-lunbo ol .lv-a {
+          background-color: #FF9D00; }
+        .section .section-l .lv-lunbo ol li {
+          float: left;
+          width: 15px;
+          height: 8px;
+          background: white;
+          border-radius: 3px;
+          margin-right: 3px; }
+          .section .section-l .lv-lunbo ol li:hover {
+            background: #FF9D00; }
+    .section .section-l .lv-gonglue {
+      width: 260px;
+      height: 354px;
+      margin-top: 40px; }
+      .section .section-l .lv-gonglue .gl-a {
+        width: 260px;
+        height: 36px; }
+        .section .section-l .lv-gonglue .gl-a a {
+          color: black;
+          font-size: 18px;
+          color: #333; }
+          .section .section-l .lv-gonglue .gl-a a span {
+            float: right;
+            font-size: 14px;
+            color: #999; }
+      .section .section-l .lv-gonglue .gl-b {
+        width: 260px;
+        height: 155px; }
+        .section .section-l .lv-gonglue .gl-b img {
+          width: 110px;
+          height: 155px; }
+        .section .section-l .lv-gonglue .gl-b div {
+          float: right;
+          width: 130px;
+          height: 88px; }
+          .section .section-l .lv-gonglue .gl-b div a {
+            font-size: 22px;
+            color: #333; }
+            .section .section-l .lv-gonglue .gl-b div a:hover {
+              text-decoration: underline; }
+          .section .section-l .lv-gonglue .gl-b div p {
+            color: #666;
+            font-size: 12px;
+            line-height: 20px;
+            margin-top: 10px; }
+        .section .section-l .lv-gonglue .gl-b ul {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 14px; }
+          .section .section-l .lv-gonglue .gl-b ul li {
+            line-height: 28px; }
+            .section .section-l .lv-gonglue .gl-b ul li a {
+              color: #FF9D00; }
+              .section .section-l .lv-gonglue .gl-b ul li a:hover {
+                text-decoration: underline; }
+    .section .section-l .lv-huodong {
+      width: 260px;
+      height: 437px;
+      margin-top: 20px; }
+      .section .section-l .lv-huodong .hd-a {
+        width: 260px;
+        height: 36px; }
+        .section .section-l .lv-huodong .hd-a a {
+          color: black;
+          font-size: 18px;
+          color: #333; }
+          .section .section-l .lv-huodong .hd-a a span {
+            float: right;
+            font-size: 14px;
+            color: #FF9D00; }
+      .section .section-l .lv-huodong .hd-b {
+        width: 260px;
+        height: 390px;
+        display: block;
+        overflow: hidden; }
+        .section .section-l .lv-huodong .hd-b .hd-aaa {
+          width: 260px;
+          height: 390px;
+          display: block; }
+          .section .section-l .lv-huodong .hd-b .hd-aaa:hover {
+            overflow-x: hidden; }
+        .section .section-l .lv-huodong .hd-b a {
+          display: block;
+          width: 260px;
+          height: 50px; }
+          .section .section-l .lv-huodong .hd-b a img {
+            float: left;
+            margin-right: 10px; }
+          .section .section-l .lv-huodong .hd-b a div span {
+            color: #FF9D00;
+            font-size: 14px; }
+          .section .section-l .lv-huodong .hd-b a div p {
+            font-size: 12px;
+            margin-top: 5px;
+            color: #333; }
+    .section .section-l .jiaru {
+      margin-top: 20px; }
+      .section .section-l .jiaru .jr-a {
+        width: 260px;
+        height: 36px; }
+        .section .section-l .jiaru .jr-a a {
+          color: black;
+          font-size: 18px;
+          color: #333; }
+          .section .section-l .jiaru .jr-a a span {
+            float: right;
+            font-size: 14px;
+            color: #666; }
+      .section .section-l .jiaru .jr-b a {
+        font-size: 14px;
+        color: #666;
+        width: 260px;
+        display: block;
+        line-height: 30px; }
+        .section .section-l .jiaru .jr-b a i {
+          color: red; }
+        .section .section-l .jiaru .jr-b a span {
+          margin-left: 50px; }
+      .section .section-l .jiaru .jr-b a:hover {
+        color: #FF9d00; }
+    .section .section-l .zuixin {
+      width: 260px;
+      height: 227px;
+      margin-top: 20px;
+      font-size: 12px;
+      line-height: 30px; }
+      .section .section-l .zuixin h3 {
+        font-size: 18px;
+        margin-bottom: 20px; }
+      .section .section-l .zuixin li a {
+        color: #333; }
+        .section .section-l .zuixin li a:hover {
+          text-decoration: underline; }
+  .section .section-r {
+    float: right;
+    width: 700px;
+    height: 2224px;
+    border: 1px solid red;
+    font-size: 14px; }
+    .section .section-r .baokuan {
+      position: relative;
+      width: 700px;
+      height: 264px; }
+      .section .section-r .baokuan h3 {
+        font-size: 18px; }
+    .section .section-r .bk-shop {
+      width: 220px;
+      height: 217px;
+      margin-top: 15px;
+      float: left; }
+      .section .section-r .bk-shop:hover h3 {
+        background: #F3F3F3;
+        margin-top: -36px;
+        color: #FF9D00; }
+      .section .section-r .bk-shop:hover .ly2 {
+        background: #F3F3F3; }
+      .section .section-r .bk-shop img {
+        width: 220px;
+        height: 135px; }
+      .section .section-r .bk-shop a {
+        display: block;
+        position: absolute;
+        top: 33px;
+        left: 145px;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 14px;
+        color: white;
+        padding: 5px 0px 2px 10px;
+        background: #ff6155;
+        width: 70px;
+        height: 16px; }
+      .section .section-r .bk-shop .jiage {
+        position: absolute;
+        top: 134px;
+        left: 0px;
+        width: 210px;
+        height: 35px;
+        background: rgba(255, 97, 85, 0.9);
+        font-size: 14px;
+        color: white;
+        line-height: 35px;
+        padding-left: 10px; }
+        .section .section-r .bk-shop .jiage span {
+          font-size: 27px;
+          font-weight: bold;
+          float: right;
+          margin-right: 10px; }
+      .section .section-r .bk-shop .lywz {
+        position: relative; }
+        .section .section-r .bk-shop .lywz h3 {
+          z-index: -88px;
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0px;
+          font-size: 14px;
+          line-height: 22px;
+          height: 85px;
+          padding: 5px 5px 5px 5px;
+          overflow: hidden; }
+        .section .section-r .bk-shop .lywz div {
+          z-index: 88;
+          display: block;
+          position: absolute;
+          top: 48px;
+          left: 0px;
+          width: 220px;
+          height: 30px;
+          line-height: 27px;
+          background: white;
+          margin-top: 5px; }
+          .section .section-r .bk-shop .lywz div i {
+            color: #FF9D00;
+            float: right; }
+          .section .section-r .bk-shop .lywz div span {
+            font-weight: bold; }
+    .section .section-r .bk-shop2 {
+      width: 220px;
+      height: 217px;
+      margin: 15px;
+      float: left; }
+      .section .section-r .bk-shop2:hover h3 {
+        background: #F3F3F3;
+        margin-top: -36px;
+        color: #FF9D00; }
+      .section .section-r .bk-shop2:hover .ly2 {
+        background: #F3F3F3; }
+      .section .section-r .bk-shop2 img {
+        width: 220px;
+        height: 135px; }
+      .section .section-r .bk-shop2 a {
+        display: block;
+        position: absolute;
+        top: 33px;
+        left: 381px;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 14px;
+        color: white;
+        padding: 5px 0px 2px 10px;
+        background: #ff6155;
+        width: 70px;
+        height: 16px; }
+      .section .section-r .bk-shop2 .jiage2 {
+        position: absolute;
+        top: 134px;
+        left: 235px;
+        width: 210px;
+        height: 35px;
+        background: rgba(255, 97, 85, 0.9);
+        font-size: 14px;
+        color: white;
+        line-height: 35px;
+        padding-left: 10px; }
+        .section .section-r .bk-shop2 .jiage2 span {
+          font-size: 27px;
+          font-weight: bold;
+          float: right;
+          margin-right: 10px; }
+      .section .section-r .bk-shop2 .lywz {
+        position: relative; }
+        .section .section-r .bk-shop2 .lywz h3 {
+          z-index: -88px;
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0px;
+          font-size: 14px;
+          line-height: 22px;
+          height: 85px;
+          padding: 5px 5px 5px 5px;
+          overflow: hidden; }
+        .section .section-r .bk-shop2 .lywz div {
+          z-index: 88;
+          display: block;
+          position: absolute;
+          top: 48px;
+          left: 0px;
+          width: 220px;
+          height: 30px;
+          line-height: 27px;
+          background: white;
+          margin-top: 5px; }
+          .section .section-r .bk-shop2 .lywz div i {
+            color: #FF9D00;
+            float: right; }
+          .section .section-r .bk-shop2 .lywz div span {
+            font-weight: bold; }
+    .section .section-r .bk-shop3 {
+      width: 220px;
+      height: 217px;
+      margin-top: 15px;
+      float: left; }
+      .section .section-r .bk-shop3:hover h3 {
+        background: #F3F3F3;
+        margin-top: -36px;
+        color: #FF9D00; }
+      .section .section-r .bk-shop3:hover .ly2 {
+        background: #F3F3F3; }
+      .section .section-r .bk-shop3 img {
+        width: 220px;
+        height: 135px; }
+      .section .section-r .bk-shop3 .lywz {
+        position: relative; }
+        .section .section-r .bk-shop3 .lywz h3 {
+          z-index: -88px;
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0px;
+          font-size: 14px;
+          line-height: 22px;
+          height: 85px;
+          padding: 5px 5px 5px 5px;
+          overflow: hidden; }
+        .section .section-r .bk-shop3 .lywz div {
+          z-index: 88;
+          display: block;
+          position: absolute;
+          top: 48px;
+          left: 0px;
+          width: 220px;
+          height: 30px;
+          line-height: 27px;
+          background: white;
+          margin-top: 5px; }
+          .section .section-r .bk-shop3 .lywz div i {
+            color: #FF9D00;
+            float: right; }
+          .section .section-r .bk-shop3 .lywz div span {
+            font-weight: bold; }
+    .section .section-r .section-nav {
+      width: 700px;
+      height: 36px;
+      margin-top: 15px; }
+      .section .section-r .section-nav ul li {
+        float: left; }
+      .section .section-r .section-nav ul .nav1 {
+        font-size: 18px;
+        line-height: 36px;
+        margin-left: 10px; }
+        .section .section-r .section-nav ul .nav1 a {
+          color: #FF9D00; }
+      .section .section-r .section-nav ul .nav2 {
+        border: 1px solid #666;
+        margin-top: 8px;
+        margin-left: 8px; }
+        .section .section-r .section-nav ul .nav2 a {
+          font-size: 12px;
+          line-height: 20px;
+          color: #666;
+          padding: 0px 10px 0px 8px; }
+      .section .section-r .section-nav ul .nav3 {
+        margin-left: 20px;
+        margin-top: -3px; }
+        .section .section-r .section-nav ul .nav3 a {
+          font-size: 18px;
+          color: #FF9D00;
+          line-height: 36px; }
+          .section .section-r .section-nav ul .nav3 a img {
+            margin-top: -22px;
+            margin-right: 10px;
+            width: 67px;
+            height: 50px; }
+      .section .section-r .section-nav ul .nav4 {
+        margin-left: 30px; }
+        .section .section-r .section-nav ul .nav4 a {
+          font-size: 18px;
+          color: #333;
+          line-height: 36px; }
+      .section .section-r .section-nav ul .nav5 a {
+        margin-left: 30px;
+        color: #FF9D00;
+        line-height: 36px; }
+        .section .section-r .section-nav ul .nav5 a i {
+          color: #FF9D00; }
+      .section .section-r .section-nav ul .nav6 {
+        margin-left: 20px;
+        width: 140px;
+        height: 36px;
+        background: #FF9d00;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 36px; }
+        .section .section-r .section-nav ul .nav6 a {
+          font-size: 16px;
+          color: white; }
+    .section .section-r .nav-xiantiao {
+      width: 700px;
+      height: 2px;
+      background: #999;
+      margin-top: 6px; }
+    .section .section-r .wenzhang {
+      width: 700px;
+      height: 150px;
+      padding: 15px 0 15px 0;
+      background: pink; }
+      .section .section-r .wenzhang img {
+        float: left; }
+      .section .section-r .wenzhang .wz-a {
+        width: 455px;
+        height: 117px;
+        float: left;
+        margin-left: 20px; }
+        .section .section-r .wenzhang .wz-a .wz-3 {
+          font-size: 18px;
+          color: #333;
+          line-height: 26px; }
+          .section .section-r .wenzhang .wz-a .wz-3:hover {
+            color: #FF9D00; }
+        .section .section-r .wenzhang .wz-a .wz-4 {
+          font-size: 14px;
+          color: #333;
+          line-height: 20px; }
+        .section .section-r .wenzhang .wz-a .wz-5 {
+          float: left;
+          width: 455px;
+          height: 33px;
+          background: #ddd;
+          color: #333; }
+
+/* 页面的主题内容 左右两面 */
 /* 页面的底部  */
 .floot {
   width: 100%;
