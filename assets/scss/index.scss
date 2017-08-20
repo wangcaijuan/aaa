@@ -228,7 +228,7 @@
 /* 页面的主题内容 左右两面 */
 .section{
 	width:1000px;
-	height:2254px;
+	height:2224px;
 	// background-color:blue;
 	margin:0 auto;
 
@@ -903,10 +903,18 @@
 			}
 		}
 		.wenzhang{
+			position:relative;
+			top: 0px;
+			left:-15px;
 			width:700px;
 			height:150px;
-			padding:15px 0 15px 0;
-			background:pink;
+			padding:15px;
+			// background:pink;
+			margin-top:20px;
+			&:hover{
+				background:#F8F8F8;
+			}
+				
 			img{
 				float:left;
 			}
@@ -916,6 +924,9 @@
 				float:left;
 				// background:red;
 				margin-left:20px;
+				&:hover .wz-3{
+					color:#FF9D00;
+				}
 				.wz-3{
 					font-size:18px;
 					color:#333;
@@ -934,21 +945,206 @@
 					float:left;
 					width:455px;
 					height:33px;
-					background:#ddd;
+					// background:#ddd;
 					color:#333;
+					line-height:33px;
+					margin-top:15px;
+					a{
+						color:#333;
+					}
+					i{
+						margin-right:5px;
+					}
+					.wz5-one{
+						&:hover{
+							color:#FF9D00;
+						}
+					}
+					.wz5-two{
+						color:#FF9D00;
+						margin-left:5px;
+						&:hover{
+						text-decoration:underline;
+							
+						}
+					}
+					span{
+						margin-left:90px;
+					}
+					img{
+						display:block;
+						float:right;
+						
+					}
 
 				}
 			}
 		}
-
+		
+		.fenye{
+			width:700px;
+			height:65px;
+			// background:pink;
+			margin-top:20px;
+			a{	
+				padding:5px;
+			    padding:5px 8px;
+				font-size:12px;
+				line-height:65px;
+				border-radius:4px;
+				color:#666;
+				&:hover{
+					color:white;
+				    background:#FF9D00;
+				}
+			    // width:
+			    
+				
+			}
+			span{
+				font-size:12px;
+				color:#666;
+			}
+			.fy-one{
+				margin-left:200px;
+			}
+			.fy-two{
+				background:#FF9D00;
+			}
+		}
 	}
 
 }
 /* 页面的主题内容 左右两面 */
+/* 广告 */
+.guanggao{
+	text-align:center;
+}
+/* 广告 */
 /* 页面的底部  */ 
 .floot{
 	width:100%;
-	height:500px;
+	height:552px;
 	background:pink;
+	margin-top:30px;
+	background:#3c3c3c;
+	color:#c2c2c2;
+	.floot-one{
+
+		position: relative;
+		// margin-top:20px;
+		top:40px;
+		margin:0 auto;
+		width:1000px;
+		height:200px;
+		border:1px solid red;
+		ul{
+			float:left;
+			// border:1px solid blue;
+			margin-right:110px;
+
+			li{
+
+				color:#c2c2c2;
+				font-size:12px;
+				line-height:24px;
+				h3{
+					font-size:14px;
+				}
+
+
+				span{
+					color:#FF9D00;
+				}
+				a{
+					color:#c2c2c2;
+					&:hover{
+						color:white;
+					}
+				}
+
+			}
+		}
+		.floor-fuwu{
+			font-size:14px;
+			line-height:25px;
+			margin-left:30px;
+
+		}
+		.floor-wz{
+			position: absolute;
+			top: 26px;
+			left:600px;
+			
+		}
+		.ewm{
+			float:right;
+			position: absolute;
+			top: 0px;
+			left:700px;
+			width:300px;
+			height:150px;
+			// background:red;
+			margin-top:22px;
+
+			li{
+				margin-left:20px;
+				img{
+					
+					margin-left:50px;
+				}
+			}
+			
+
+		}
+	}
+
+	.floor-two{
+		margin:0 auto;
+		width:1000px;
+		height:110px;
+		border:1px solid pink;
+		text-align:center;
+		margin-top:40px;
+		h2{
+			
+			font-size:18px;
+			color:#c2c2c2;
+		}
+		p{
+
+			margin-top:15px;
+			i{
+				margin:10px;
+			}
+		}
+		.iconfont{
+			 font-size:28px;
+			 
+		}
+		
+	}
+	.floor-three{
+		margin:0 auto;
+		width:1000px;
+		height:80px;
+		// border:1px solid red;
+		padding:15px 10px;
+		border-top:1px solid #c2c2c2;
+		border-bottom:1px solid #c2c2c2;
+		a{
+			font-size:12px;
+			color:#c2c2c2;
+			margin-right:12px;
+			line-height:22px;
+
+
+		}
+		
+	}
+	.dibu{
+		text-align:center;
+		margin-top:10px;
+	}
 }
 /* 页面的底部  */ 
