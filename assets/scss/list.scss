@@ -1,0 +1,253 @@
+*{
+	margin:0;
+	padding:0;
+	margin:0 auto;
+}
+#container{
+	width:100%;
+	height:2000px;
+
+}
+
+/* 列表页面的头部 */
+.header{
+	width:1423px;
+	height:650px;
+	border:1px solid red;
+	text-align:center;
+	margin:0 auto;
+	.bj{
+		position: relative;
+		
+		img{
+			width:1423px;
+		}
+		.bj-one{
+			position: absolute;
+			top: 260px;
+			left:220px;
+			width:360px;
+			height:102px;
+			padding:15px;
+			background:rgba(0,0,0,.4);
+			h2{
+
+				color:white;
+				font-size:20px;
+				line-height:20px;
+				margin-bottom:15px;
+			}
+			div{
+				margin-bottom:15px;
+				input{
+					float:left;
+					width:268px;
+					height:36px;
+					padding:0px 22px;
+					border-radius:4px;
+					border-style:none;
+
+				}
+				a{
+					display:block;
+					float:right;
+					width:36px;
+					height:36px;
+					background:#ff9d00;
+					text-align:center;
+					line-height:36px;
+					border-radius:4px;
+					.iconfont{
+						color:white;
+						font-size:26px;
+
+
+					}
+				}
+			}
+			p{
+				float:left;
+				margin-top:15px;
+				width:360px;
+				height:16px;
+				// background:pink;
+				a{
+					color:white;
+					font-size:14px;
+					line-height:16px;
+					margin-right:5px;
+
+				}
+			}
+
+
+		}
+		.bj-two{
+			position: absolute;
+			top: 220px;
+			left:750px;
+			width:535px;
+			height:170px;
+			// background:pink;
+			padding:0px 30px;
+			border-right:7px solid white;
+			h2{
+				a{
+					line-height:39px;
+					font-size:30px;
+					color:#fff;
+					&:hover{
+						color:#ff9d00;
+					}
+				}
+			}
+			p{
+				color:#fff;
+				line-height:28.8px;
+				font-size:16px;
+			
+			}
+			a{
+				color:#fff;
+				line-height:32.4px;
+				font-size:18px;
+
+				&:hover{
+					color:#ff9d00;
+					text-decoration:underline;
+				}
+
+			}
+
+
+		}
+		.bj-san{
+			display:block;
+			position: absolute;
+			top:640px;
+			left:700px;
+			a{
+				.iconfont{
+
+					color:white;
+					font-size:20px;
+				}
+			}
+			
+		}
+		.bj-si{
+			position:absolute;
+			top: 640px;
+			left:1200px;
+			width:175px;
+			height:28px;
+			// border:1px solid red;
+			a{
+				float:left;
+				color:white;
+				padding:0px 10px;
+			}
+		}
+	}
+	
+}
+
+/* 列表页面的头部 */
+/* 列表的主题部分 */
+.section{
+	
+	position: relative;
+	width:1423px;
+	height:2000px;
+	background:#ddd;
+	border:1px solid blue;
+	margin:0 auto;
+	text-align:center;
+
+	.biaoti{
+		 position: absolute;
+		 top: 0px;
+		 left:0px;
+		 width:1000px;
+		 height:1000px;
+		 border:1px solid red;
+		 margin:0px 211.5px;
+		
+		 h1{
+			position: absolute;
+			top: 42px;
+			left:435px;
+			font-size:26px;
+			
+
+		 }
+		.xxk{
+			position: absolute;
+			top: 85px;
+			left:0px;
+			width: 1000px;
+			height: 300px;
+			border: 1px solid yellow;
+			// background:pink;
+			ul{
+				/*清除li浮动的影响,直接给ul做overflow:hidden*/
+				overflow: hidden;
+				list-style: none;
+				margin-left:102px;
+				margin-top:7px;
+
+				// width:100%;
+				// height:50px;
+				// background:pink;
+
+			}
+			span{
+				float:left;
+				color:#eee;
+			}
+			ul li{
+				float:left;
+				// width: 150px;
+				height: 38px;
+				margin: 0px 25px;
+				font-size:18px;
+				line-height: 22px;
+				text-align: center;
+				a{
+					color:#333;
+				}
+				&:hover{
+					
+					border-bottom:3px solid #ff9d00;
+
+				}
+				&:hover a{
+					color:#ff9d00;
+				}
+
+				// border:1px solid red;
+				// background-color: #ddd;
+			}
+
+			.content{
+				position: absolute;
+				top: 0px;
+				left:0px;
+				width: 1000px;
+				height: 250px;
+				background-color: pink;
+				margin-top:100px;
+			}
+
+			.active{
+				// background-color: yellow;
+			}
+			.hide{
+				display: none;
+			}
+			
+	    }
+	}
+
+}
+/* 列表的主题部分 */

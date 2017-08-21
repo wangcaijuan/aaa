@@ -13,9 +13,9 @@
   height: 58px;
   background-color: #fff; }
   .header .nav {
+    z-index: 10;
     width: 1000px;
     height: 58px;
-    background-color: pink;
     margin: 0 auto;
     overflow: hidden; }
     .header .nav .jlt {
@@ -28,13 +28,49 @@
       float: left;
       line-height: 58px;
       padding: 0 16px 0 16px;
-      list-style: none; }
+      list-style: none;
+      height: 58px; }
+      .header .nav ul li:hover a {
+        color: #FF9D00; }
       .header .nav ul li a {
-        border-bottom: 3px solid #FF9D00;
         font-size: 14px;
         color: black; }
       .header .nav ul li i {
         font-size: 12px; }
+      .header .nav ul li .xiala {
+        border: 1px; }
+      .header .nav ul li .nav-ziyou {
+        z-index: 1;
+        position: absolute;
+        top: 58px;
+        left: 590px;
+        width: 145px;
+        height: 200px;
+        background: white; }
+        .header .nav ul li .nav-ziyou:hover .nav-ziyou {
+          display: block; }
+        .header .nav ul li .nav-ziyou ul {
+          width: 145px;
+          height: 200px; }
+          .header .nav ul li .nav-ziyou ul li {
+            border: none;
+            width: 112px;
+            height: 35px;
+            line-height: 35px; }
+            .header .nav ul li .nav-ziyou ul li:hover {
+              background: #EEEEEE; }
+            .header .nav ul li .nav-ziyou ul li .iconfont {
+              color: red;
+              font-size: 35px;
+              margin-top: 5px; }
+          .header .nav ul li .nav-ziyou ul span {
+            padding: 0px 3px;
+            background: red;
+            margin-left: 5px;
+            font-size: 12px;
+            color: white; }
+            .header .nav ul li .nav-ziyou ul span .span-new {
+              background: #1EC896; }
     .header .nav .nav-right {
       float: right; }
       .header .nav .nav-right a {
@@ -45,6 +81,7 @@
 /* 页面的头部 导航栏 */
 /* 页面的主体部分 轮播图 */
 .lunbo {
+  z-index: -1;
   position: relative;
   width: 1423px;
   height: 474px;
@@ -340,7 +377,6 @@
     float: right;
     width: 700px;
     height: 2224px;
-    border: 1px solid red;
     font-size: 14px; }
     .section .section-r .baokuan {
       position: relative;
@@ -689,8 +725,7 @@
     top: 40px;
     margin: 0 auto;
     width: 1000px;
-    height: 200px;
-    border: 1px solid red; }
+    height: 200px; }
     .floot .floot-one ul {
       float: left;
       margin-right: 110px; }
@@ -730,7 +765,6 @@
     margin: 0 auto;
     width: 1000px;
     height: 110px;
-    border: 1px solid pink;
     text-align: center;
     margin-top: 40px; }
     .floot .floor-two h2 {
