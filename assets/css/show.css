@@ -1,0 +1,312 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+#container {
+  width: 100%;
+  height: 100%; }
+
+/* 页面的头部 导航栏 */
+.header {
+  height: 58px;
+  background-color: #fff;
+  border: 1px solid black; }
+  .header .nav {
+    z-index: 10;
+    width: 1000px;
+    height: 58px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .header .nav .jlt {
+      float: left;
+      width: 150px;
+      height: 58px;
+      background: url(../images/jlt.png) 0 0;
+      margin-top: 11px; }
+    .header .nav ul li {
+      float: left;
+      line-height: 58px;
+      padding: 0 16px 0 16px;
+      list-style: none;
+      height: 58px; }
+      .header .nav ul li:hover a {
+        color: #FF9D00; }
+      .header .nav ul li a {
+        font-size: 14px;
+        color: black; }
+      .header .nav ul li i {
+        font-size: 12px; }
+      .header .nav ul li .xiala {
+        border: 1px; }
+        .header .nav ul li .xiala:hover .nav-ziyou {
+          display: block; }
+      .header .nav ul li .nav-ziyou {
+        z-index: 1;
+        display: none;
+        position: absolute;
+        top: 58px;
+        left: 590px;
+        width: 145px;
+        height: 200px;
+        background: white; }
+        .header .nav ul li .nav-ziyou:hover .nav-ziyou {
+          display: block; }
+        .header .nav ul li .nav-ziyou ul {
+          width: 145px;
+          height: 200px; }
+          .header .nav ul li .nav-ziyou ul li {
+            border: none;
+            width: 112px;
+            height: 35px;
+            line-height: 35px; }
+            .header .nav ul li .nav-ziyou ul li:hover {
+              background: #EEEEEE; }
+            .header .nav ul li .nav-ziyou ul li .iconfont {
+              color: red;
+              font-size: 35px;
+              margin-top: 5px; }
+          .header .nav ul li .nav-ziyou ul span {
+            padding: 0px 3px;
+            background: red;
+            margin-left: 5px;
+            font-size: 12px;
+            color: white; }
+            .header .nav ul li .nav-ziyou ul span .span-new {
+              background: #1EC896; }
+    .header .nav .nav-right {
+      float: right; }
+      .header .nav .nav-right a {
+        font-size: 14px;
+        color: #FF9D00;
+        line-height: 58px; }
+
+/* 页面的头部 导航栏 */
+/* 页面的主题内容  */
+.section {
+  height: 100%; }
+  .section .one {
+    width: 1423px;
+    height: 474.3px;
+    background: pink;
+    margin: 0px auto;
+    text-align: center; }
+    .section .one video {
+      height: 474.3px; }
+  .section .two {
+    width: 1423px;
+    height: 80px;
+    border: 1px solid #d7d7d7;
+    margin: 0px auto;
+    text-align: center; }
+    .section .two .two-img img {
+      width: 120px;
+      height: 120px; }
+    .section .two .two-a {
+      float: left;
+      width: 480px;
+      height: 19px;
+      padding-top: 20px;
+      padding-left: 150px;
+      margin: 10px 0px 0px 200px;
+      font-size: 14px; }
+    .section .two .two-b {
+      float: left;
+      width: 44px;
+      height: 44px;
+      border: 1px solid #ff9d00;
+      border-radius: 50%;
+      margin-top: 20px; }
+      .section .two .two-b img {
+        margin-top: 13px; }
+    .section .two .two-c {
+      float: right;
+      width: 120px;
+      height: 80px;
+      border: 1px solid #eee;
+      margin-right: 210px; }
+      .section .two .two-c .iconfont {
+        font-size: 24px; }
+      .section .two .two-c p {
+        margin-top: 10px; }
+    .section .two .two-d {
+      float: right;
+      width: 120px;
+      height: 80px;
+      border: 1px solid #eee; }
+      .section .two .two-d .iconfont {
+        font-size: 24px; }
+      .section .two .two-d p {
+        margin-top: 10px; }
+  .section .three {
+    width: 1000px;
+    height: 100%;
+    background: #ddd;
+    margin: 0 auto;
+    margin-top: 40px; }
+    .section .three .left {
+      float: left;
+      width: 680px;
+      height: 100%;
+      background: pink; }
+      .section .three .left .time {
+        width: 660px;
+        height: 80px;
+        border: 1px solid #333;
+        padding-bottom: 18px; }
+        .section .three .left .time ul {
+          margin-top: 20px;
+          margin-left: 40px; }
+          .section .three .left .time ul li {
+            float: left;
+            width: 203px;
+            height: 22px;
+            margin-bottom: 20px; }
+            .section .three .left .time ul li a {
+              font-size: 14px;
+              color: #333; }
+      .section .three .left .changtiao {
+        width: 680px;
+        height: 95px;
+        border-bottom: 5px solid black; }
+        .section .three .left .changtiao span {
+          font-size: 22px;
+          margin: 0px; }
+      .section .three .left .imgshow {
+        position: relative;
+        margin-top: 25px;
+        width: 680px;
+        height: 454px; }
+        .section .three .left .imgshow:hover .shadow {
+          display: block; }
+        .section .three .left .imgshow ul {
+          float: left; }
+          .section .three .left .imgshow ul li {
+            float: left; }
+        .section .three .left .imgshow .shadow {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 640px;
+          height: 50px;
+          background: black;
+          color: white;
+          font-size: 12px;
+          line-height: 50px;
+          padding: 0 20px;
+          display: none; }
+          .section .three .left .imgshow .shadow .shadow-a {
+            float: left; }
+            .section .three .left .imgshow .shadow .shadow-a li {
+              margin-right: 10px; }
+          .section .three .left .imgshow .shadow .shadow-b {
+            float: right; }
+      .section .three .left .kuke {
+        width: 660px;
+        height: 26px;
+        background: pink;
+        padding: 10px; }
+        .section .three .left .kuke a {
+          width: 50px;
+          height: 26px;
+          font-size: 12px;
+          color: #333;
+          background: red; }
+      .section .three .left .wenzhang {
+        width: 680px; }
+        .section .three .left .wenzhang p {
+          font-size: 15px;
+          line-height: 28px;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          background: white; }
+    .section .three .right {
+      float: right;
+      width: 240px;
+      height: 494px;
+      background: yellow; }
+
+/* 页面的主题内容  */
+/* 广告 */
+/* 广告 */
+/* 页面的底部  */
+.floot {
+  width: 100%;
+  height: 552px;
+  background: pink;
+  margin-top: 130px;
+  background: #3c3c3c;
+  color: #c2c2c2; }
+  .floot .floot-one {
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+    width: 1000px;
+    height: 200px; }
+    .floot .floot-one ul {
+      float: left;
+      margin-right: 110px; }
+      .floot .floot-one ul li {
+        color: #c2c2c2;
+        font-size: 12px;
+        line-height: 24px; }
+        .floot .floot-one ul li h3 {
+          font-size: 14px; }
+        .floot .floot-one ul li span {
+          color: #FF9D00; }
+        .floot .floot-one ul li a {
+          color: #c2c2c2; }
+          .floot .floot-one ul li a:hover {
+            color: white; }
+    .floot .floot-one .floor-fuwu {
+      font-size: 14px;
+      line-height: 25px;
+      margin-left: 30px; }
+    .floot .floot-one .floor-wz {
+      position: absolute;
+      top: 26px;
+      left: 600px; }
+    .floot .floot-one .ewm {
+      float: right;
+      position: absolute;
+      top: 0px;
+      left: 700px;
+      width: 300px;
+      height: 150px;
+      margin-top: 22px; }
+      .floot .floot-one .ewm li {
+        margin-left: 20px; }
+        .floot .floot-one .ewm li img {
+          margin-left: 50px; }
+  .floot .floor-two {
+    margin: 0 auto;
+    width: 1000px;
+    height: 110px;
+    text-align: center;
+    margin-top: 40px; }
+    .floot .floor-two h2 {
+      font-size: 18px;
+      color: #c2c2c2; }
+    .floot .floor-two p {
+      margin-top: 15px; }
+      .floot .floor-two p i {
+        margin: 10px; }
+    .floot .floor-two .iconfont {
+      font-size: 28px; }
+  .floot .floor-three {
+    margin: 0 auto;
+    width: 1000px;
+    height: 80px;
+    padding: 15px 10px;
+    border-top: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2; }
+    .floot .floor-three a {
+      font-size: 12px;
+      color: #c2c2c2;
+      margin-right: 12px;
+      line-height: 22px; }
+  .floot .dibu {
+    text-align: center;
+    margin-top: 10px; }
+
+/* 页面的底部  */
