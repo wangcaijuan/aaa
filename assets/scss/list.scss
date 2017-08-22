@@ -155,11 +155,11 @@
 /* 列表页面的头部 */
 /* 列表的主题部分 */
 .section{
-	
 	position: relative;
+	top:80px;
 	width:1423px;
 	height:2000px;
-	background:#ddd;
+	// background:#ddd;
 	border:1px solid blue;
 	margin:0 auto;
 	text-align:center;
@@ -169,8 +169,8 @@
 		 top: 0px;
 		 left:0px;
 		 width:1000px;
-		 height:1000px;
-		 border:1px solid red;
+		 // height:100%;
+		 // border:1px solid red;
 		 margin:0px 211.5px;
 		
 		 h1{
@@ -186,68 +186,136 @@
 			top: 85px;
 			left:0px;
 			width: 1000px;
-			height: 300px;
-			border: 1px solid yellow;
+			height: 100%;
+			// border: 1px solid yellow;
 			// background:pink;
-			ul{
-				/*清除li浮动的影响,直接给ul做overflow:hidden*/
-				overflow: hidden;
-				list-style: none;
-				margin-left:102px;
-				margin-top:7px;
 
-				// width:100%;
-				// height:50px;
-				// background:pink;
-
-			}
 			span{
 				float:left;
+				line-height:37px;
 				color:#eee;
 			}
-			ul li{
-				float:left;
+			
+			.xxk-one{
+				/*清除li浮动的影响,直接给ul做overflow:hidden*/
+				// background:red;
+				width:1000px;
+				height:37px;
+				margin-left:125px;
+				overflow: hidden;
+				list-style: none;
+			}
+			ul>li{
+				float: left;
 				// width: 150px;
-				height: 38px;
-				margin: 0px 25px;
-				font-size:18px;
-				line-height: 22px;
-				text-align: center;
+				height: 37px;
+				margin: 0px 22px;
+				line-height: 37px;
+				// text-align: center;
 				a{
+					font-size:18px;
 					color:#333;
 				}
-				&:hover{
-					
-					border-bottom:3px solid #ff9d00;
-
-				}
-				&:hover a{
-					color:#ff9d00;
-				}
-
-				// border:1px solid red;
 				// background-color: #ddd;
 			}
 
 			.content{
-				position: absolute;
-				top: 0px;
-				left:0px;
+				margin-top:40px;
 				width: 1000px;
-				height: 250px;
-				background-color: pink;
-				margin-top:100px;
+				// height: 600px;
+				// background-color: white;
+				// border:1px solid blue;
+				div{
+					width:1000px;
+					// height:300px;
+					// background:pink;
+					.con-a{
+						float:left;
+						width:470px;
+						height:65px;
+						border-bottom:1px dashed #eee;
+						// background:white;
+						// margin-right:30px;
+						span{
+							color:#333;
+							font-size:14px;
+							line-height:65px;
+							margin-right:10px;
+							a{
+								color:#666;
+							}
+						}
+						li{
+							margin-left:0px;
+							line-height:65px;
+							margin-right:50px;
+							a{
+								margin-left:0 auto;
+								font-size:14px;
+
+								// margin:0 auto;
+							}
+						}
+					}
+
+					.con-b{
+						float:right;
+						width:470px;
+						height:65px;
+						border-bottom:1px dashed #eee;
+						// background:white;
+						// margin-right:30px;
+						span{
+							color:#333;
+							font-size:14px;
+							line-height:65px;
+							margin-right:10px;
+							a{
+								color:#666;
+							}
+						}
+						li{
+							margin-left:0px;
+							line-height:65px;
+							margin-right:50px;
+							a{
+								margin-left:0 auto;
+								font-size:14px;
+
+								// margin:0 auto;
+							}
+						}
+					}
+
+				}
+
 			}
 
 			.active{
-				// background-color: yellow;
+				a{
+				color:#ff9d00;
+
+				}
 			}
 			.hide{
 				display: none;
 			}
+
+			.fenglan{
 			
-	    }
-	}
+				img{
+					margin-left:-150px;
+				}
+				
+			}
+
+
+		}
+			    
+
+    }
+
+	
 
 }
 /* 列表的主题部分 */

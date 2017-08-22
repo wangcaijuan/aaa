@@ -111,9 +111,9 @@
 /* 列表的主题部分 */
 .section {
   position: relative;
+  top: 80px;
   width: 1423px;
   height: 2000px;
-  background: #ddd;
   border: 1px solid blue;
   margin: 0 auto;
   text-align: center; }
@@ -122,8 +122,6 @@
     top: 0px;
     left: 0px;
     width: 1000px;
-    height: 1000px;
-    border: 1px solid red;
     margin: 0px 211.5px; }
     .section .biaoti h1 {
       position: absolute;
@@ -135,39 +133,74 @@
       top: 85px;
       left: 0px;
       width: 1000px;
-      height: 300px;
-      border: 1px solid yellow; }
-      .section .biaoti .xxk ul {
-        /*清除li浮动的影响,直接给ul做overflow:hidden*/
-        overflow: hidden;
-        list-style: none;
-        margin-left: 102px;
-        margin-top: 7px; }
+      height: 100%; }
       .section .biaoti .xxk span {
         float: left;
+        line-height: 37px;
         color: #eee; }
-      .section .biaoti .xxk ul li {
-        float: left;
-        height: 38px;
-        margin: 0px 25px;
-        font-size: 18px;
-        line-height: 22px;
-        text-align: center; }
-        .section .biaoti .xxk ul li a {
-          color: #333; }
-        .section .biaoti .xxk ul li:hover {
-          border-bottom: 3px solid #ff9d00; }
-        .section .biaoti .xxk ul li:hover a {
-          color: #ff9d00; }
-      .section .biaoti .xxk .content {
-        position: absolute;
-        top: 0px;
-        left: 0px;
+      .section .biaoti .xxk .xxk-one {
+        /*清除li浮动的影响,直接给ul做overflow:hidden*/
         width: 1000px;
-        height: 250px;
-        background-color: pink;
-        margin-top: 100px; }
+        height: 37px;
+        margin-left: 125px;
+        overflow: hidden;
+        list-style: none; }
+      .section .biaoti .xxk ul > li {
+        float: left;
+        height: 37px;
+        margin: 0px 22px;
+        line-height: 37px; }
+        .section .biaoti .xxk ul > li a {
+          font-size: 18px;
+          color: #333; }
+      .section .biaoti .xxk .content {
+        margin-top: 40px;
+        width: 1000px; }
+        .section .biaoti .xxk .content div {
+          width: 1000px; }
+          .section .biaoti .xxk .content div .con-a {
+            float: left;
+            width: 470px;
+            height: 65px;
+            border-bottom: 1px dashed #eee; }
+            .section .biaoti .xxk .content div .con-a span {
+              color: #333;
+              font-size: 14px;
+              line-height: 65px;
+              margin-right: 10px; }
+              .section .biaoti .xxk .content div .con-a span a {
+                color: #666; }
+            .section .biaoti .xxk .content div .con-a li {
+              margin-left: 0px;
+              line-height: 65px;
+              margin-right: 50px; }
+              .section .biaoti .xxk .content div .con-a li a {
+                margin-left: 0 auto;
+                font-size: 14px; }
+          .section .biaoti .xxk .content div .con-b {
+            float: right;
+            width: 470px;
+            height: 65px;
+            border-bottom: 1px dashed #eee; }
+            .section .biaoti .xxk .content div .con-b span {
+              color: #333;
+              font-size: 14px;
+              line-height: 65px;
+              margin-right: 10px; }
+              .section .biaoti .xxk .content div .con-b span a {
+                color: #666; }
+            .section .biaoti .xxk .content div .con-b li {
+              margin-left: 0px;
+              line-height: 65px;
+              margin-right: 50px; }
+              .section .biaoti .xxk .content div .con-b li a {
+                margin-left: 0 auto;
+                font-size: 14px; }
+      .section .biaoti .xxk .active a {
+        color: #ff9d00; }
       .section .biaoti .xxk .hide {
         display: none; }
+      .section .biaoti .xxk .fenglan img {
+        margin-left: -150px; }
 
 /* 列表的主题部分 */
