@@ -1,0 +1,107 @@
+.container a.logo {
+  z-index: -11;
+  width: 75px;
+  height: 90px;
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 130px; }
+
+.yanzheng {
+  width: 370px;
+  height: 290px;
+  background: white;
+  margin: 0 auto;
+  padding-top: 28px;
+  border-radius: 5px; }
+  .yanzheng input {
+    width: 306px;
+    height: 28px;
+    padding: 6px 0px 6px 12px;
+    border: 1px solid #ff9d00;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 25px; }
+  .yanzheng button {
+    width: 320px;
+    height: 42px;
+    border: 0px;
+    outline: none;
+    border: 1px solid #ff9d00;
+    background-color: #ff9d00;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 25px; }
+  .yanzheng .xieyi {
+    width: 320px;
+    font-size: 12px;
+    color: #ccc;
+    line-height: 12px;
+    text-align: right;
+    margin: 0 auto;
+    margin-top: 15px; }
+    .yanzheng .xieyi a {
+      color: #666; }
+  .yanzheng .yong {
+    width: 370px;
+    height: 52px;
+    border-top: 1px solid #ebebeb;
+    margin-top: 30px; }
+    .yanzheng .yong p {
+      font-size: 12px;
+      color: #999;
+      margin-top: 15px;
+      margin-left: 25px; }
+  .yanzheng .tubiao {
+    margin-left: 35px; }
+    .yanzheng .tubiao a {
+      display: block;
+      width: 250px;
+      height: 50px;
+      line-height: 50px; }
+      .yanzheng .tubiao a .iconfont {
+        color: #ff9d00;
+        font-size: 45px;
+        line-height: 50px;
+        margin-right: 40px; }
+  .yanzheng .wenzi {
+    margin-left: 33px; }
+    .yanzheng .wenzi a {
+      color: #999;
+      font-size: 12px;
+      margin-right: 55px; }
+      .yanzheng .wenzi a .qq {
+        margin-left: 20px; }
+
+.shadow {
+  width: 140px;
+  height: 24px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-size: 12px;
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 24px;
+  border-radius: 15px; }
+  .shadow span {
+    color: white; }
+  .shadow a {
+    color: #ff9d00; }
+
+.youxiajiao {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: white;
+  font-size: 12px;
+  float: right; }
+  .youxiajiao a {
+    color: white;
+    decoration: underline; }
