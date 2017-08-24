@@ -1,0 +1,93 @@
+.container a.logo {
+  z-index: -11;
+  width: 75px;
+  height: 90px;
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 130px; }
+
+.yanzheng {
+  width: 370px;
+  height: 430px;
+  background: white;
+  margin: 0 auto;
+  border-radius: 5px; }
+  .yanzheng .topname {
+    width: 370px;
+    height: 57px;
+    padding: 6px 0px 6px 0px;
+    line-height: 57px;
+    font-size: 18px;
+    background: #F5F5F5;
+    border-bottom: 1px solid #D8D8D8;
+    border-radius: 5px;
+    margin-bottom: 40px; }
+    .yanzheng .topname span {
+      margin-left: 25px; }
+  .yanzheng input {
+    width: 306px;
+    height: 28px;
+    padding: 6px 0px 6px 12px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 25px;
+    margin-bottom: 10px; }
+  .yanzheng .yz {
+    width: 318px;
+    height: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+    margin-left: 25px;
+    margin-bottom: 12px; }
+    .yanzheng .yz a {
+      float: left;
+      width: 100px;
+      height: 40px;
+      font-size: 12px;
+      border: 1px solid #999;
+      background: rgba(223, 223, 223, 0.5);
+      text-align: center;
+      border-radius: 5px;
+      color: #999; }
+      .yanzheng .yz a:hover {
+        background: none; }
+    .yanzheng .yz input {
+      float: left;
+      width: 192px;
+      height: 28px;
+      margin: 0px;
+      margin-left: 10px;
+      border: 1px solid #999;
+      color: #999; }
+  .yanzheng button {
+    width: 320px;
+    height: 42px;
+    border: 0px;
+    outline: none;
+    border: 1px solid #ff9d00;
+    background-color: #ff9d00;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 25px; }
+    .yanzheng button:hover {
+      background: rgba(255, 168, 0, 0.9); }
+
+.youxiajiao {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: white;
+  font-size: 12px;
+  float: right; }
+  .youxiajiao a {
+    color: white; }
+    .youxiajiao a:hover {
+      text-decoration: underline; }

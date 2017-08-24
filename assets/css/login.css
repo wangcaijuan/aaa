@@ -39,8 +39,6 @@
     cursor: pointer;
     margin-top: 15px;
     margin-left: 25px; }
-    .yanzheng button:hover {
-      background: rgba(255, 168, 0, 0.9); }
   .yanzheng .xieyi {
     width: 320px;
     font-size: 12px;
@@ -70,8 +68,6 @@
       width: 250px;
       height: 50px;
       line-height: 50px; }
-      .yanzheng .tubiao a:hover {
-        background: rgab(); }
       .yanzheng .tubiao a .iconfont {
         color: #ff9d00;
         font-size: 45px;

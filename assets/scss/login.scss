@@ -24,7 +24,6 @@
 	// text-align:center;
 	padding-top:28px;
 	border-radius:5px;
-	
 	input{
 		width:306px;
 		height:28px;
@@ -53,9 +52,6 @@
 		cursor:pointer;
 		margin-top:15px;
 		margin-left:25px;
-		&:hover{
-			background:rgba(255,168,0,.9);
-		}
 	}
 
 	.xieyi{
@@ -100,9 +96,6 @@
 			width:250px;
 			height:50px;
 			line-height:50px;
-			&:hover{
-				background:rgab()
-			}
 			.iconfont{
 				color:#ff9d00;
 				font-size:45px;

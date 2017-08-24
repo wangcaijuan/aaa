@@ -1,0 +1,27 @@
+bg = new Array(5);
+bg[0] = 'assets/images/reg.jpg'
+bg[1] = 'assets/images/reg1.jpg'
+bg[2] = 'assets/images/reg2.jpg'
+bg[3] = 'assets/images/reg3.jpg'
+bg[4] = 'assets/images/reg4.jpg'
+bg[5] = 'assets/images/reg5.jpg'
+bg[6] = 'assets/images/reg6.jpg'
+bg[7] = 'assets/images/reg7.jpg'
+bg[8] = 'assets/images/reg8.jpg'
+bg[9] = 'assets/images/reg9.jpg'
+bg[10] = 'assets/images/reg10.jpg'
+bg[11] = 'assets/images/reg11.jpg'
+bg[12] = 'assets/images/reg12.jpg'
+bg[13] = 'assets/images/reg13.jpg'
+bg[14] = 'assets/images/reg14.jpg'
+bg[15] = 'assets/images/reg15.jpg'
+bg[16] = 'assets/images/reg16.jpg'
+bg[17] = 'assets/images/reg17.jpg'
+bg[18] = 'assets/images/reg18.jpg'
+bg[19] = 'assets/images/reg19.jpg'
+bg[20] = 'assets/images/reg20.jpg'
+bg[21] = 'assets/images/reg21.jpg'
+bg[22] = 'assets/images/reg22.jpg';
+
+index = Math.floor(Math.random() * bg.length);
+document.write("<body background="+bg[index]+">");
