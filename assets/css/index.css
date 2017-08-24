@@ -13,70 +13,138 @@
   height: 58px;
   background-color: #fff; }
   .header .nav {
-    z-index: 10;
     width: 1000px;
     height: 58px;
-    margin: 0 auto;
-    overflow: hidden; }
+    line-height: 58px;
+    margin: 0 auto; }
+    .header .nav .xbk {
+      border-bottom: 3px solid white; }
+      .header .nav .xbk:hover {
+        border-bottom: 3px solid #ff9d00; }
+      .header .nav .xbk:hover a {
+        color: #ff9d00; }
+    .header .nav .xiala {
+      border-top: 3px solid white;
+      border-left: 1px solid white;
+      border-right: 1px solid white; }
+      .header .nav .xiala:hover {
+        border-top: 3px solid #ff9d00;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd; }
+      .header .nav .xiala:hover > a {
+        color: #ff9d00; }
     .header .nav .jlt {
       float: left;
       width: 150px;
-      height: 58px;
+      height: 48px;
       background: url(../images/jlt.png) 0 0;
       margin-top: 11px; }
-    .header .nav ul li {
+    .header .nav .xbk-a {
+      background: #ff9d00; }
+      .header .nav .xbk-a a {
+        color: white; }
+        .header .nav .xbk-a a:hover {
+          color: white; }
+    .header .nav > ul li {
       float: left;
+      height: 58px;
       line-height: 58px;
       padding: 0 16px 0 16px;
-      list-style: none;
-      height: 58px; }
-      .header .nav ul li:hover a {
+      list-style: none; }
+      .header .nav > ul li:hover .xbk-a {
+        color: white; }
+      .header .nav > ul li:hover .a {
         color: #FF9D00; }
-      .header .nav ul li a {
-        font-size: 14px;
-        color: black; }
-      .header .nav ul li i {
-        font-size: 12px; }
-      .header .nav ul li .xiala {
-        border: 1px; }
-      .header .nav ul li .nav-ziyou {
-        z-index: 1;
-        position: absolute;
-        top: 58px;
-        left: 590px;
+      .header .nav > ul li:hover .nav-ziyou {
+        display: block; }
+      .header .nav > ul li:hover .nav-shequ {
+        display: block; }
+    .header .nav a {
+      font-size: 14px;
+      color: black; }
+    .header .nav i {
+      font-size: 12px; }
+    .header .nav .nav-ziyou {
+      z-index: 1;
+      display: none;
+      position: absolute;
+      top: 58px;
+      left: 585px;
+      width: 145px;
+      height: 280px;
+      background: white; }
+      .header .nav .nav-ziyou ul {
         width: 145px;
-        height: 200px;
-        background: white; }
-        .header .nav ul li .nav-ziyou:hover .nav-ziyou {
-          display: block; }
-        .header .nav ul li .nav-ziyou ul {
-          width: 145px;
-          height: 200px; }
-          .header .nav ul li .nav-ziyou ul li {
-            border: none;
-            width: 112px;
-            height: 35px;
-            line-height: 35px; }
-            .header .nav ul li .nav-ziyou ul li:hover {
-              background: #EEEEEE; }
-            .header .nav ul li .nav-ziyou ul li .iconfont {
-              color: red;
-              font-size: 35px;
-              margin-top: 5px; }
-          .header .nav ul li .nav-ziyou ul span {
-            padding: 0px 3px;
-            background: red;
-            margin-left: 5px;
-            font-size: 12px;
-            color: white; }
-            .header .nav ul li .nav-ziyou ul span .span-new {
-              background: #1EC896; }
-    .header .nav .nav-right {
-      float: right; }
-      .header .nav .nav-right a {
-        font-size: 14px;
-        color: #FF9D00;
-        line-height: 58px; }
+        height: 200px; }
+        .header .nav .nav-ziyou ul li {
+          border: none;
+          width: 112px;
+          height: 45px;
+          line-height: 35px; }
+          .header .nav .nav-ziyou ul li:hover {
+            background: #EEEEEE; }
+          .header .nav .nav-ziyou ul li .iconfont {
+            color: red;
+            font-size: 35px;
+            margin-top: 5px; }
+        .header .nav .nav-ziyou ul span {
+          padding: 0px 3px;
+          background: red;
+          margin-left: 5px;
+          font-size: 12px;
+          color: white; }
+          .header .nav .nav-ziyou ul span .span-new {
+            background: #1EC896; }
+    .header .nav .nav-shequ {
+      z-index: 1;
+      display: none;
+      position: absolute;
+      top: 58px;
+      left: 760px;
+      width: 290px;
+      height: 290px;
+      background: white; }
+      .header .nav .nav-shequ span {
+        padding: 0px 3px;
+        background: red;
+        margin-left: 5px;
+        font-size: 12px;
+        color: white; }
+        .header .nav .nav-shequ span .span-new {
+          background: #1EC896; }
+      .header .nav .nav-shequ .shequ-a {
+        margin: 0px;
+        float: left;
+        width: 150px;
+        height: 100%;
+        border: 1px solid red;
+        font-size: 16px;
+        line-height: 35px; }
+      .header .nav .nav-shequ .shequ-b {
+        list-style-type: none;
+        float: right;
+        width: 120px;
+        height: 100%;
+        line-height: 30px;
+        border: 1px solid pink; }
+  .header .nav-right {
+    float: right;
+    width: 200px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center; }
+    .header .nav-right a {
+      display: block;
+      float: left;
+      color: #FF9D00; }
+      .header .nav-right a span {
+        color: #333;
+        margin: 0px 10px; }
+      .header .nav-right a i {
+        font-size: 30px;
+        margin-right: 6px; }
+        .header .nav-right a i:hover {
+          color: red; }
 
 /* 页面的头部 导航栏 */
 /* 页面的主体部分 轮播图 */

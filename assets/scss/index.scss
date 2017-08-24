@@ -17,59 +17,106 @@
   	background-color: #fff; 
    	
   	.nav{
-  		z-index:10;
+  		
 		width:1000px;
 		height:58px;
 		// background-color:pink;
+		line-height:58px;
     	margin:0 auto;
-    	overflow:hidden;
+    	.xbk{
+    	
+			border-bottom:3px solid white;
+			&:hover{
+				border-bottom:3px solid #ff9d00;
+				
+			}
+			&:hover a{
+				color:#ff9d00;
+			}
+
+    	}
+    	.xiala{
+			border-top:3px solid white;
+			border-left:1px solid white;
+			border-right:1px solid white;
+
+			&:hover{
+				border-top:3px solid #ff9d00;
+				border-left:1px solid #ddd;
+				border-right:1px solid #ddd;
+				
+			}
+			&:hover >a{
+				color:#ff9d00;
+			}
+
+    	}
    		.jlt {
    			float:left;
    			width:150px;
-   			height:58px;
+   			height:48px;
 			background:url(../images/jlt.png) 0 0;
 			margin-top:11px;
 
 		}
-		
-		ul li{
+		.xbk-a{
+			background:#ff9d00;
+			a{
+				color:white;
+				&:hover{
+					color:white;
+				}
+			}
+
+			
+		}
+		>ul li{
 				float:left;
+				// width:100%;
+				height:58px;
 				line-height:58px;
 				padding:0 16px 0 16px; 
 				list-style:none;
-				// width:100%;
-				height:58px;
-				// border:1px solid blue;
+				// border-bottom:5px solid blue;
 
-				&:hover a{
+				&:hover .xbk-a {
+					color:white;
+				}
+				&:hover .a{
 					color:#FF9D00;
 				}
+				// &:hover{
+				// 	border:3px solid #ff9d00;
+				// }
 
+				&:hover .nav-ziyou{
+					display:block;
+				}
+				&:hover .nav-shequ{
+					display:block;
+				}
+
+
+				}
 			a{
 
-				// border-bottom:3px solid #FF9D00;
-				
 				font-size:14px;
 				color:black;
+				
 			}
 			i{
 				font-size:12px;
 			}
-			.xiala{
-				border:1px 
-			}
+			
 			.nav-ziyou{
 				z-index:1;
-				// display:none;
+				display:none;
 				position:absolute;
 				top: 58px;
-				left:590px;
+				left:585px;
 				width:145px;
-				height:200px;
+				height:280px;
 				background:white;
-				&:hover .nav-ziyou{
-					display:block;
-				}
 
 				ul{
 					width:145px;
@@ -78,9 +125,9 @@
 					li{
 						border:none;
 						width:112px;
-						height:35px;
+						height:45px;
 						line-height:35px;
-
+						
 						&:hover{
 							background:#EEEEEE;
 							// color:black;
@@ -117,24 +164,85 @@
 				// 	}
 				// }
 			}
+
+			.nav-shequ{
+				z-index:1;
+				display:none;
+				position:absolute;
+				top: 58px;
+				left:760px;
+				width:290px;
+				height:290px;
+				background:white;
+				span{
+					padding:0px 3px;
+					background:red;
+					margin-left:5px;
+					font-size:12px;
+					color:white;
+					.span-new{
+						background:#1EC896;
+					}
+				}
+				.shequ-a{
+					margin:0px;
+					float:left;
+					width:150px;
+					height:100%;
+					border:1px solid red;
+					font-size:16px;
+					line-height:35px;
+
+				}
+				.shequ-b{
+					list-style-type: none;
+					float:right;
+					width:120px;
+					height:100%;
+					line-height:30px;
+					border:1px solid pink;
+					li{
+
+					}
+				}
+
+			}
+
 		}
 		.nav-right{
 			float:right;
+			width:200px;
+			height:58px;
+			line-height:58px;
+			text-align:center;
 
-			a{
-				font-size:14px;
+			a{	
+				display:block;
+				float:left;
 				color:#FF9D00;
-				line-height:58px;
+				span{
+					color:#333;
+					margin:0px 10px;
+				}
+				i{
+					font-size:30px;
+					margin-right:6px;
+					&:hover{
+						color:red;
+						
+					}
+				}
 				
 			}
 		}
 	
-  	}
+  	
 }
 
 /* 页面的头部 导航栏 */
 
 /* 页面的主体部分 轮播图 */
+
 .lunbo{
 	z-index:-1;
 	position:relative;
@@ -142,6 +250,7 @@
 	height:474px;
 	border:1px solid blue;
 	margin-bottom:30px;
+	// margin-top:100px;
 	// overflow:hidden;
 	.lunbo-one li{
 		

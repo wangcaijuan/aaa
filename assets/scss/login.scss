@@ -18,7 +18,7 @@
 }
 .yanzheng{
 	width:370px;
-	height:290px;
+	height:360px;
 	background:white;
 	margin:0 auto;
 	// text-align:center;
@@ -28,12 +28,13 @@
 		width:306px;
 		height:28px;
 		padding:6px 0px 6px 12px;
-		border:1px solid #ff9d00;
+		border:1px solid #d8d8d8;
 		border-radius:5px;
 		outline:none;
 		font-size:14px;
 		line-height:28px;
 		margin-left:25px;
+		margin-bottom:10px;
 	}
 	button{
 		// list-style:none;
@@ -64,7 +65,7 @@
 		margin:0 auto;
 		margin-top:15px;
 		a{
-			color:#666;
+			color:#ff9d00;
 			&:hover{
 				text-decoration:underline;
 			

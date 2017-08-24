@@ -9,7 +9,7 @@
 
 .yanzheng {
   width: 370px;
-  height: 360px;
+  height: 290px;
   background: white;
   margin: 0 auto;
   padding-top: 28px;
@@ -49,7 +49,7 @@
     margin: 0 auto;
     margin-top: 15px; }
     .yanzheng .xieyi a {
-      color: #ff9d00; }
+      color: #666; }
       .yanzheng .xieyi a:hover {
         text-decoration: underline; }
   .yanzheng .yong {
