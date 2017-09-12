@@ -147,23 +147,89 @@
         .header .nav .nav-shequ ul .span-new {
           background: #1EC896; }
   .header .nav-right {
+    position: relative;
     float: right;
-    width: 200px;
-    height: 58px;
-    line-height: 58px;
-    text-align: center; }
-    .header .nav-right a {
-      display: block;
-      float: left;
-      color: #FF9D00; }
-      .header .nav-right a span {
-        color: #333;
-        margin: 0px 10px; }
-      .header .nav-right a i {
-        font-size: 30px;
+    width: 210px;
+    height: 58px; }
+    .header .nav-right li {
+      float: left; }
+    .header .nav-right .right-a {
+      width: 60px;
+      height: 24px;
+      background: #ff9d00;
+      line-height: 24px;
+      margin-top: 15px;
+      border-radius: 4px;
+      margin-right: 20px; }
+      .header .nav-right .right-a > a {
+        color: white;
+        font-size: 12px;
+        margin-left: 5px; }
+    .header .nav-right .right-b > a {
+      font-size: 14px; }
+      .header .nav-right .right-b > a .iconfont {
         margin-right: 6px; }
-        .header .nav-right a i:hover {
+      .header .nav-right .right-b > a:hover {
+        color: #ff9d00; }
+    .header .nav-right .right-b:hover .daka {
+      display: block; }
+    .header .nav-right .right-c {
+      margin-left: 10px; }
+      .header .nav-right .right-c > a img {
+        border: 2px solid white;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-right: 5px; }
+        .header .nav-right .right-c > a img:hover {
+          border: 2px solid #ff9d00; }
+      .header .nav-right .right-c:hover .daka2 {
+        display: block; }
+    .header .nav-right .daka {
+      position: absolute;
+      top: 58px;
+      left: 0px;
+      width: 210px;
+      height: 200px;
+      background: white;
+      display: none; }
+      .header .nav-right .daka ul li {
+        width: 180px;
+        height: 100%;
+        float: left;
+        line-height: 33px;
+        background: white;
+        padding-left: 25px; }
+        .header .nav-right .daka ul li:hover {
+          background: #eee; }
+    .header .nav-right .daka2 {
+      position: absolute;
+      top: 57px;
+      left: 0px;
+      width: 210px;
+      height: 500px;
+      background: white;
+      display: none; }
+      .header .nav-right .daka2 .daka2-a {
+        width: 100%;
+        height: 48px;
+        background: #ff9d00; }
+        .header .nav-right .daka2 .daka2-a li {
+          margin-left: 25px; }
+          .header .nav-right .daka2 .daka2-a li a {
+            color: white; }
+      .header .nav-right .daka2 .daka2-b li {
+        width: 180px;
+        height: 35px;
+        line-height: 30px;
+        float: left;
+        padding-left: 28px; }
+        .header .nav-right .daka2 .daka2-b li a i {
+          font-size: 14px;
+          margin-right: 20px; }
+        .header .nav-right .daka2 .daka2-b li a span {
           color: red; }
+        .header .nav-right .daka2 .daka2-b li:hover {
+          background: #eee; }
 
 /* 页面的头部 导航栏 */
 /* 页面的主体部分 轮播图 */

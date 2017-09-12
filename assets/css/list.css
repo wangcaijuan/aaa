@@ -4,21 +4,25 @@
   padding: 0;
   margin: 0 auto; }
 
-#container {
+.container {
   width: 100%;
-  height: 2000px; }
+  height: 2000px;
+  border: 1px solid red; }
 
 /* 列表页面的头部 */
 .header {
   width: 1423px;
   height: 650px;
   border: 1px solid red;
-  text-align: center;
   margin: 0 auto; }
   .header .bj {
-    position: relative; }
+    position: absolute; }
     .header .bj img {
-      width: 1423px; }
+      text-align: center;
+      width: 1423px;
+      height: 650px;
+      color: white;
+      background: white; }
     .header .bj .bj-one {
       position: absolute;
       top: 260px;
@@ -91,14 +95,14 @@
     .header .bj .bj-san {
       display: block;
       position: absolute;
-      top: 640px;
+      top: 600px;
       left: 700px; }
       .header .bj .bj-san a .iconfont {
         color: white;
         font-size: 20px; }
     .header .bj .bj-si {
       position: absolute;
-      top: 640px;
+      top: 610px;
       left: 1200px;
       width: 175px;
       height: 28px; }
@@ -106,6 +110,228 @@
         float: left;
         color: white;
         padding: 0px 10px; }
+  .header .nav {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 58px;
+    line-height: 58px;
+    margin: 0 auto; }
+    .header .nav:hover {
+      background: white; }
+    .header .nav:hover ul li a {
+      color: black; }
+    .header .nav .xbk:hover {
+      border-bottom: 3px solid #ff9d00; }
+    .header .nav .xbk:hover a {
+      color: #ff9d00; }
+    .header .nav .xiala:hover {
+      border-top: 3px solid #ff9d00;
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd; }
+    .header .nav .xiala:hover > a {
+      color: #ff9d00; }
+    .header .nav .jlt {
+      float: left;
+      width: 150px;
+      height: 48px;
+      background: url(../images/jlt.png) 0 0;
+      margin-top: 11px;
+      margin-left: 200px;
+      color: white; }
+    .header .nav .xbk-a {
+      background: #ff9d00; }
+      .header .nav .xbk-a a {
+        color: white; }
+        .header .nav .xbk-a a:hover {
+          color: white; }
+    .header .nav > ul li {
+      float: left;
+      height: 58px;
+      padding: 0 16px 0 16px;
+      list-style: none;
+      color: white; }
+      .header .nav > ul li:hover .xbk-a {
+        color: white; }
+      .header .nav > ul li:hover .a {
+        color: #FF9D00; }
+      .header .nav > ul li:hover .nav-ziyou {
+        display: block; }
+      .header .nav > ul li:hover .nav-shequ {
+        display: block; }
+    .header .nav a {
+      font-size: 14px;
+      color: white; }
+    .header .nav i {
+      font-size: 12px; }
+    .header .nav .nav-ziyou {
+      z-index: 1;
+      display: none;
+      position: absolute;
+      top: 58px;
+      left: 573px;
+      width: 145px;
+      height: 280px;
+      background: white; }
+      .header .nav .nav-ziyou ul {
+        width: 145px;
+        height: 200px; }
+        .header .nav .nav-ziyou ul li {
+          border: none;
+          width: 112px;
+          height: 45px;
+          line-height: 35px; }
+          .header .nav .nav-ziyou ul li:hover {
+            background: #EEEEEE; }
+          .header .nav .nav-ziyou ul li .iconfont {
+            color: red;
+            font-size: 35px;
+            margin-top: 5px; }
+        .header .nav .nav-ziyou ul span {
+          padding: 0px 3px;
+          background: red;
+          margin-left: 5px;
+          font-size: 12px;
+          color: white; }
+        .header .nav .nav-ziyou ul .span-new {
+          background: #1EC896; }
+    .header .nav .nav-shequ {
+      z-index: 1;
+      display: none;
+      position: absolute;
+      top: 58px;
+      left: 747px;
+      width: 290px;
+      height: 290px;
+      background: white;
+      margin: 0px; }
+      .header .nav .nav-shequ .shequ-a {
+        float: left; }
+        .header .nav .nav-shequ .shequ-a li {
+          margin-top: 25px; }
+          .header .nav .nav-shequ .shequ-a li a {
+            color: #666;
+            font-size: 16px; }
+            .header .nav .nav-shequ .shequ-a li a:hover {
+              color: #ff9d00; }
+      .header .nav .nav-shequ .shequ-b {
+        float: right;
+        margin-top: 30px; }
+        .header .nav .nav-shequ .shequ-b li {
+          width: 120px;
+          height: 33px; }
+          .header .nav .nav-shequ .shequ-b li a {
+            color: #666;
+            margin: 0px;
+            font-size: 14px;
+            line-height: 0px; }
+            .header .nav .nav-shequ .shequ-b li a:hover {
+              color: #ff9d00; }
+      .header .nav .nav-shequ ul {
+        width: 145px;
+        height: 200px; }
+        .header .nav .nav-shequ ul li {
+          border: none;
+          width: 112px;
+          height: 45px;
+          line-height: 35px; }
+          .header .nav .nav-shequ ul li .iconfont {
+            color: red;
+            font-size: 35px;
+            margin-top: 5px; }
+        .header .nav .nav-shequ ul span {
+          padding: 0px 3px;
+          background: red;
+          margin-left: 5px;
+          font-size: 12px;
+          color: white; }
+        .header .nav .nav-shequ ul .span-new {
+          background: #1EC896; }
+  .header .nav-right {
+    position: relative;
+    float: right;
+    width: 210px;
+    height: 58px;
+    margin-right: 200px; }
+    .header .nav-right li {
+      float: left; }
+    .header .nav-right .right-a {
+      width: 60px;
+      height: 24px;
+      background: #ff9d00;
+      line-height: 24px;
+      margin-top: 15px;
+      border-radius: 4px;
+      margin-right: 20px; }
+      .header .nav-right .right-a > a {
+        color: white;
+        font-size: 12px;
+        margin-left: 5px; }
+    .header .nav-right .right-b > a {
+      font-size: 14px; }
+      .header .nav-right .right-b > a .iconfont {
+        margin-right: 6px; }
+      .header .nav-right .right-b > a:hover {
+        color: #ff9d00; }
+    .header .nav-right .right-b:hover .daka {
+      display: block; }
+    .header .nav-right .right-c {
+      margin-left: 10px; }
+      .header .nav-right .right-c > a img {
+        border: 2px solid white;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-right: 5px; }
+        .header .nav-right .right-c > a img:hover {
+          border: 2px solid #ff9d00; }
+      .header .nav-right .right-c:hover .daka2 {
+        display: block; }
+    .header .nav-right .daka {
+      position: absolute;
+      top: 58px;
+      left: 0px;
+      width: 210px;
+      height: 200px;
+      background: white;
+      display: none; }
+      .header .nav-right .daka ul li {
+        width: 180px;
+        height: 100%;
+        float: left;
+        line-height: 33px;
+        background: white;
+        padding-left: 25px; }
+        .header .nav-right .daka ul li:hover {
+          background: #eee; }
+    .header .nav-right .daka2 {
+      position: absolute;
+      top: 57px;
+      left: 0px;
+      width: 210px;
+      height: 500px;
+      background: white;
+      display: none; }
+      .header .nav-right .daka2 .daka2-a {
+        width: 100%;
+        height: 48px;
+        background: #ff9d00; }
+        .header .nav-right .daka2 .daka2-a li {
+          margin-left: 25px; }
+          .header .nav-right .daka2 .daka2-a li a {
+            color: white; }
+      .header .nav-right .daka2 .daka2-b li {
+        width: 180px;
+        height: 35px;
+        line-height: 30px;
+        float: left;
+        padding-left: 28px; }
+        .header .nav-right .daka2 .daka2-b li a i {
+          font-size: 14px;
+          margin-right: 20px; }
+        .header .nav-right .daka2 .daka2-b li a span {
+          color: red; }
+        .header .nav-right .daka2 .daka2-b li:hover {
+          background: #eee; }
 
 /* 列表页面的头部 */
 /* 列表的主题部分 */
@@ -113,16 +339,22 @@
   position: relative;
   top: 80px;
   width: 1423px;
-  height: 2000px;
   border: 1px solid blue;
   margin: 0 auto;
   text-align: center; }
   .section .biaoti {
+    display: block;
     position: absolute;
     top: 0px;
     left: 0px;
     width: 1000px;
+    height: 100%;
+    border: 1px solid red;
     margin: 0px 211.5px; }
+    .section .biaoti img {
+      position: absolute;
+      top: 0px;
+      left: -150px; }
     .section .biaoti h1 {
       position: absolute;
       top: 42px;
@@ -201,6 +433,6 @@
       .section .biaoti .xxk .hide {
         display: none; }
       .section .biaoti .xxk .fenglan img {
-        margin-left: -150px; }
+        float: left; }
 
 /* 列表的主题部分 */
